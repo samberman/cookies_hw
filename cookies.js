@@ -48,23 +48,35 @@
 		        Cookies.set("key3", 0);
 		    };
 
-		    $("#clearc1").on('click',function(){
+		  //   $("#clearc1").on('click',function(){
+				// 	var clearOne = Cookies.set('key1',0);
+				// 	count1 = 0
+				// 	$('#c1').text(Cookies.get('key1'))
+				// });
+
+		  //   $("#clearc2").on('click',function(){
+				// 	var clearTwo = Cookies.set('key2',0);
+				// 	count2 = 0
+				// 	$('#c2').text(Cookies.get('key2'))
+				// });
+
+		  //   $("#clearc3").on('click',function(){
+				// 	var clearThree = Cookies.set('key3',0);
+				// 	count3 = 0
+				// 	$('#c3').text(Cookies.get('key3'))
+				// });
+
+				$("#clearall").on('click', function(){
 					var clearOne = Cookies.set('key1',0);
 					count1 = 0
 					$('#c1').text(Cookies.get('key1'))
-				});
-
-		    $("#clearc2").on('click',function(){
 					var clearTwo = Cookies.set('key2',0);
 					count2 = 0
 					$('#c2').text(Cookies.get('key2'))
-				});
-
-		    $("#clearc3").on('click',function(){
 					var clearThree = Cookies.set('key3',0);
 					count3 = 0
 					$('#c3').text(Cookies.get('key3'))
-				});
+				})
 		// 	function set_cookies() {
 		// 			if (Cookies.set($('#cookie1').text())){
 		// 				$('#cookie1-number').text(Cookies($('#cookie1').text()));
